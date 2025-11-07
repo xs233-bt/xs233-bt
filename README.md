@@ -60,4 +60,5 @@ I’ve been playing **Dota** for more than 10 years — mastering teamwork, stra
 
 ---
 
-> _“Data without context is noise — my goal is to turn it into insight.”_ 🚀
+> _“Standing at the dawn of the fourth technological revolution, I aim to bridge data, intelligence, and automation — shaping a smarter, more connected world.”_ 🌐
+
