@@ -1,72 +1,93 @@
-## Hi there 👋 I'm Neo (Shunci) Lu  
+## Hi there 👋 I’m Neo (Shunci) Lu
 
-🎯  **Data Engineer | Business Intelligence Analyst @ Scootaround Inc.**
-  
-📍 Based in Canada 🇨🇦 | 🌎 Building scalable data pipelines & analytics solutions  
-
----
-
-### 🧠 About Me  
-- 🔭 I’m currently working on **data engineering projects** involving Airflow, dbt, AWS (Glue, Redshift, Athena, S3), and open table formats like **Iceberg** and **Delta Lake**.  
-- 🧩 Experienced in **data modeling**, **ETL/ELT automation**, and **financial analytics** (revenue, cost, margin reporting).  
-- ⚙️ Skilled in **Python**, **SQL**, **Power BI**, **Spark**, and **Terraform** for building production-grade data pipelines.  
-- 🚀 Passionate about transforming raw data into actionable insights and enabling self-serve analytics.  
+🎯 **Data Engineer | Business Intelligence Analyst @ Scootaround Inc.**  
+📍 Canada 🇨🇦 | 🌎 Building scalable data pipelines & analytics systems
 
 ---
 
-### 🏗️ Current Projects  
+### 🧠 About Me
 
+- 🔭 Currently working on **data engineering projects** involving **Airflow**, **dbt**, and **AWS** (Glue, Redshift, Athena, S3), with modern table formats such as **Apache Iceberg** and **Delta Lake**
+- 🧩 Strong background in **data modeling**, **ETL / ELT automation**, and **financial analytics** (revenue, cost, margin, and profitability reporting)
+- ⚙️ Hands-on experience with **Python**, **SQL**, **Power BI**, **Spark**, and **Terraform** to build production-grade data pipelines
+- 🚀 Passionate about transforming raw data into actionable insights and enabling **self-serve analytics** at scale
 
-- **🔹 IBKR Options Strategy Agent
+---
+
+### 🏗️ Current Projects
+
+---
+
+### 🔹 IBKR Options Strategy Agent
 
 **Phase I – Completed**
 
- A real-time options analytics engine built in **Python**, leveraging **ib_insync** to interface with the **Interactive Brokers (IBKR) API**. Live option chain data is ingested at near      tick-level granularity and streamed through **Apache Kafka** using custom Python producers and consumers. The pipeline computes core option metrics, including **Greeks**, **implied         volatility**, **premium yield**, **probability metrics**, and **margin utilization**.
+A real-time options analytics engine built in **Python**, leveraging **ib_insync** to interface with the **Interactive Brokers (IBKR) API**. Live option chain data is ingested at near tick-level granularity and streamed through **Apache Kafka** using custom Python producers and consumers. The pipeline computes core option metrics, including **Greeks**, **implied volatility**, **premium yield**, **probability metrics**, and **margin utilization**.
 
 **Phase II – In Progress**
 
- Processed option data is persisted in **Parquet** format on **AWS S3** (with local storage support) and queried using **DuckDB** for high-performance analytics. This phase focuses on       generating **systematic strategy signals** for **covered calls**, **cash-secured puts**, and **vertical spreads**, with planned extensions for **historical backtesting**, **portfolio-  level  risk management**, and **automated trade execution**.
+Processed option data is persisted in **Parquet** format on **AWS S3** (with local storage support) and queried using **DuckDB** for high-performance analytics. This phase focuses on generating **systematic strategy signals** for **covered calls**, **cash-secured puts**, and **vertical spreads**, with planned extensions for **historical backtesting**, **portfolio-level risk management**, and **automated trade execution**.
 
 ---
 
- 
+### 🔹 Modern Data Lakehouse with Apache Iceberg
 
-- **🏗️ Modern Data Lakehouse with Apache Iceberg**  
-  Designed and implemented a **schema-evolving data warehouse** on AWS using **S3 + Glue + Athena + Iceberg**, enabling versioned, ACID-compliant datasets.  
-  Orchestrated **Airflow-based ingestion and transformation pipelines**, and modeled analytical layers using **dbt** and **Redshift Spectrum**.  
-  Integrated **AWS Glue Data Quality** checks and **SQLMesh backfill automation** to maintain data accuracy, lineage, and reproducibility across the medallion architecture.  
- 
-- **📧 Automated Airflow Reporting via SSH & SMTP**  
-  Developed a **Python-based ETL pipeline** that securely connects to remote databases through **SSH tunneling**, extracts and transforms daily business data, and emails formatted reports to stakeholders.  
-  The workflow was fully orchestrated using **Apache Airflow**, enabling scheduled automation, retry handling, and dependency tracking.  
-  Technologies used include **pandas**, **sshtunnel**, **MySQL connector**, and **smtplib**, ensuring end-to-end automation without manual intervention.
----
+Designed and implemented a **schema-evolving data lakehouse** on **AWS**, using **S3 + Glue + Athena + Apache Iceberg**, enabling **versioned, ACID-compliant datasets**.
 
-### 🧰 Tech Stack & Tools  
-**Languages:** Python, SQL, DAX, YAML, R, JAVA, Julia  
-**Data Engineering:** Airflow | dbt | AWS Glue | Redshift | Athena | S3 | Terraform | Spark | Iceberg | Kafka | SQLMesh  
-**Analytics:** Power BI | Tableau | pandas | DuckDB | Trino  
-**Databases:** PostgreSQL | MySQL | SQL Server | Redshift Spectrum  
-**Version Control & Infra:** GitHub | Docker | VS Code | Linux | AWS CLI  
+- Orchestrated **Airflow-based ingestion and transformation pipelines**
+- Modeled analytical layers using **dbt** and **Redshift Spectrum**
+- Integrated **AWS Glue Data Quality** checks and **SQLMesh backfill automation** to ensure data accuracy, lineage, and reproducibility across a medallion architecture
 
 ---
 
-### 📚 Certifications & Learning  
-- 🎓 **Data Engineering Professional Certificate** – DeepLearning.AI  
-- 🌩️ Currently preparing for **AWS Certified Data Engineer – Associate**  
-- 🧩 Exploring advanced topics like **real-time Kafka streaming**, **SQLMesh backfill automation**, and **AI-assisted data ops**.  
+### 🔹 Automated Airflow Reporting via SSH & SMTP
+
+Built a **Python-based ETL pipeline** that securely connects to remote databases via **SSH tunneling**, extracts and transforms daily business data, and distributes formatted reports to stakeholders via email.
+
+- Fully orchestrated with **Apache Airflow** for scheduling, retries, and dependency management
+- Implemented using **pandas**, **sshtunnel**, **MySQL Connector**, and **smtplib**
+- Enabled reliable, end-to-end reporting automation with zero manual intervention
 
 ---
 
-### 💬 Let’s Connect  
-📫 **Email:** [shunci233@gmail.com](mailto:neo.lu.data@gmail.com)  
-💼 **LinkedIn:** [[linkedin.com/in/neolu](https://www.linkedin.com/in/neo-lu-4b10171a8/)](https://linkedin.com/in/neolu)  
-💻 **GitHub:** [github.com/xs233-bt](https://github.com/xs233-bt)
+### 🧰 Tech Stack & Tools
+
+**Languages**  
+Python | SQL | DAX | YAML | R | Java | Julia
+
+**Data Engineering**  
+Airflow | dbt | AWS Glue | Redshift | Athena | S3 | Terraform | Spark | Iceberg | Kafka | SQLMesh
+
+**Analytics**  
+Power BI | Tableau | pandas | DuckDB | Trino
+
+**Databases**  
+PostgreSQL | MySQL | SQL Server | Redshift Spectrum
+
+**Version Control & Infra**  
+GitHub | Docker | Linux | VS Code | AWS CLI
 
 ---
 
-### ⚡ Fun Fact  
-I’ve been playing **Dota** for more than 10 years — mastering teamwork, strategy, and the art of not tilting under pressure 😎.  
+### 📚 Certifications & Learning
+
+- 🎓 **Data Engineering Professional Certificate** – DeepLearning.AI
+- 🌩️ Currently preparing for **AWS Certified Data Engineer – Associate**
+- 🧠 Exploring advanced topics such as **real-time Kafka streaming**, **SQLMesh backfill automation**, and **AI-assisted data operations**
+
+---
+
+### 💬 Let’s Connect
+
+📫 **Email:** [neo.lu.data@gmail.com](mailto:neo.lu.data@gmail.com)  
+💼 **LinkedIn:** https://www.linkedin.com/in/neo-lu-4b10171a8  
+💻 **GitHub:** https://github.com/xs233-bt
+
+---
+
+### ⚡ Fun Fact
+
+I’ve been playing **Dota** for over 10 years — mastering teamwork, strategy, and the art of not tilting under pressure 😎
 
 ---
 
