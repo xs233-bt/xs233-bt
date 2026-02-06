@@ -16,13 +16,17 @@
 
 ### 🏗️ Current Projects  
 
-## Phase I – Completed
 
-The **IBKR Options Strategy Agent** is a real-time options analytics engine built in **Python**, leveraging **ib_insync** to interface with the **Interactive Brokers (IBKR) API**. Live option chain data is ingested at near tick-level granularity and streamed through **Apache Kafka** using custom Python producers and consumers. The pipeline computes key option metrics, including **Greeks**, **implied volatility**, **premium yield**, **probability metrics**, and **margin utilization**.
+- **IBKR Options Strategy Agent**
 
-## Phase II – In Progress
+#### Phase I – Completed
+
+A real-time options analytics engine built in **Python**, leveraging **ib_insync** to interface with the **Interactive Brokers (IBKR) API**. Live option chain data is ingested at near tick-level granularity and streamed through **Apache Kafka** using custom Python producers and consumers. The pipeline computes core option metrics, including **Greeks**, **implied volatility**, **premium yield**, **probability metrics**, and **margin utilization**.
+
+#### Phase II – In Progress
 
 Processed option data is persisted in **Parquet** format on **AWS S3** (with local storage support) and queried using **DuckDB** for high-performance analytics. This phase focuses on generating **systematic strategy signals** for **covered calls**, **cash-secured puts**, and **vertical spreads**, with planned extensions for **historical backtesting**, **portfolio-level risk management**, and **automated trade execution**.
+
  
 
 - **🏗️ Modern Data Lakehouse with Apache Iceberg**  
