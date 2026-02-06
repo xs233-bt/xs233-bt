@@ -16,10 +16,14 @@
 
 ### 🏗️ Current Projects  
 
-- **📊 IBKR Real-Time Stock Data Streaming & Portfolio Monitoring**  
-  Engineered a **real-time market data pipeline** leveraging the **IBKR API** and **Apache Kafka** to stream live quotes (e.g., TSLA, NVDA, AAPL).  
-  Built **Python producers and consumers** to capture and process tick-level data, storing it efficiently in **AWS S3** for historical analysis.  
-  Utilized **DuckDB** for fast local analytics and developed an interactive **Streamlit dashboard** to visualize portfolio performance, exposure, and trade signals in real time.  
+## Phase I – Completed
+
+The **IBKR Options Strategy Agent** is a real-time options analytics engine built in **Python**, leveraging **ib_insync** to interface with the **Interactive Brokers (IBKR) API**. Live option chain data is ingested at near tick-level granularity and streamed through **Apache Kafka** using custom Python producers and consumers. The pipeline computes key option metrics, including **Greeks**, **implied volatility**, **premium yield**, **probability metrics**, and **margin utilization**.
+
+## Phase II – In Progress
+
+Processed option data is persisted in **Parquet** format on **AWS S3** (with local storage support) and queried using **DuckDB** for high-performance analytics. This phase focuses on generating **systematic strategy signals** for **covered calls**, **cash-secured puts**, and **vertical spreads**, with planned extensions for **historical backtesting**, **portfolio-level risk management**, and **automated trade execution**.
+ 
 
 - **🏗️ Modern Data Lakehouse with Apache Iceberg**  
   Designed and implemented a **schema-evolving data warehouse** on AWS using **S3 + Glue + Athena + Iceberg**, enabling versioned, ACID-compliant datasets.  
