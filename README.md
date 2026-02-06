@@ -17,7 +17,7 @@
 ### 🏗️ Current Projects  
 
 
-### 🔹 IBKR Options Strategy Agent
+## 🔹 IBKR Options Strategy Agent
 
 **Phase I – Completed**
 
@@ -35,6 +35,9 @@ Processed option data is persisted in **Parquet** format on **AWS S3** (with loc
   Designed and implemented a **schema-evolving data warehouse** on AWS using **S3 + Glue + Athena + Iceberg**, enabling versioned, ACID-compliant datasets.  
   Orchestrated **Airflow-based ingestion and transformation pipelines**, and modeled analytical layers using **dbt** and **Redshift Spectrum**.  
   Integrated **AWS Glue Data Quality** checks and **SQLMesh backfill automation** to maintain data accuracy, lineage, and reproducibility across the medallion architecture.  
+
+
+ ---
  
 - **📧 Automated Airflow Reporting via SSH & SMTP**  
   Developed a **Python-based ETL pipeline** that securely connects to remote databases through **SSH tunneling**, extracts and transforms daily business data, and emails formatted reports to stakeholders.  
