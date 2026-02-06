@@ -17,15 +17,15 @@
 ### 🏗️ Current Projects  
 
 
-- **🔹 IBKR Options Strategy Agent
+- ** 🔹 IBKR Options Strategy Agent
 
-  **Phase I – Completed**
+**Phase I – Completed**
 
-      A real-time options analytics engine built in **Python**, leveraging **ib_insync** to interface with the **Interactive Brokers (IBKR) API**. Live option chain data is ingested at           near tick-level granularity and streamed through **Apache Kafka** using custom Python producers and consumers. The pipeline computes core option metrics, including **Greeks**,              **implied volatility**, **premium yield**, **probability metrics**, and **margin utilization**.
+ A real-time options analytics engine built in **Python**, leveraging **ib_insync** to interface with the **Interactive Brokers (IBKR) API**. Live option chain data is ingested at near      tick-level granularity and streamed through **Apache Kafka** using custom Python producers and consumers. The pipeline computes core option metrics, including **Greeks**, **implied         volatility**, **premium yield**, **probability metrics**, and **margin utilization**.
 
-  **Phase II – In Progress**
+**Phase II – In Progress**
 
-     Processed option data is persisted in **Parquet** format on **AWS S3** (with local storage support) and queried using **DuckDB** for high-performance analytics. This phase focuses on       generating **systematic strategy signals** for **covered calls**, **cash-secured puts**, and **vertical spreads**, with planned extensions for **historical backtesting**, **portfolio-      level risk management**, and **automated trade execution**.
+ Processed option data is persisted in **Parquet** format on **AWS S3** (with local storage support) and queried using **DuckDB** for high-performance analytics. This phase focuses on       generating **systematic strategy signals** for **covered calls**, **cash-secured puts**, and **vertical spreads**, with planned extensions for **historical backtesting**, **portfolio-  level  risk management**, and **automated trade execution**.
 
 ---
 
@@ -35,9 +35,6 @@
   Designed and implemented a **schema-evolving data warehouse** on AWS using **S3 + Glue + Athena + Iceberg**, enabling versioned, ACID-compliant datasets.  
   Orchestrated **Airflow-based ingestion and transformation pipelines**, and modeled analytical layers using **dbt** and **Redshift Spectrum**.  
   Integrated **AWS Glue Data Quality** checks and **SQLMesh backfill automation** to maintain data accuracy, lineage, and reproducibility across the medallion architecture.  
-
-
- ---
  
 - **📧 Automated Airflow Reporting via SSH & SMTP**  
   Developed a **Python-based ETL pipeline** that securely connects to remote databases through **SSH tunneling**, extracts and transforms daily business data, and emails formatted reports to stakeholders.  
@@ -74,4 +71,3 @@ I’ve been playing **Dota** for more than 10 years — mastering teamwork, stra
 ---
 
 > _“Standing at the dawn of the fourth technological revolution, I aim to bridge data, intelligence, and automation — shaping a smarter, more connected world.”_ 🌐
-
