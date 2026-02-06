@@ -17,7 +17,7 @@
 ### 🏗️ Current Projects  
 
 
-- ** 🔹 IBKR Options Strategy Agent
+- **🔹 IBKR Options Strategy Agent
 
 **Phase I – Completed**
 
