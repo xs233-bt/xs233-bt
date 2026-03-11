@@ -87,7 +87,7 @@ GitHub | Docker | Linux | VS Code | AWS CLI
 
 ### ⚡ Fun Fact
 
-I’ve been playing **Dota** for over 10 years — mastering teamwork, strategy, and the art of not tilting under pressure 😎
+Outside of work, I enjoy exploring technology, financial markets, and systems thinking. 😎
 
 ---
 
