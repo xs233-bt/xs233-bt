@@ -79,7 +79,7 @@ GitHub | Docker | Linux | VS Code | AWS CLI
 
 ### 💬 Let’s Connect
 
-📫 **Email:** [shunci233@gmail.com](mailto:neo.lu.data@gmail.com)  
+📫 **Email:** [shunci233@gmail.com](mailto:shunci233@gmail.com)  
 💼 **LinkedIn:** https://www.linkedin.com/in/neo-lu-4b10171a8  
 💻 **GitHub:** https://github.com/xs233-bt
 
