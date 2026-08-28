@@ -89,7 +89,9 @@ GitHub | Docker | Linux | VS Code | AWS CLI
 
 I think this world is just a huge vector database.
 
-Everyone and every opportunity has its own position in a massive multidimensional space. Our choices keep changing our vector, and maybe what we call luck or destiny is just the things we happen to match with along the way.
+Everyone and every opportunity has its own position in a massive multidimensional space. 
+
+Our choices keep changing our vector, and maybe what we call luck or destiny is just the things we happen to match with along the way.
 
 ---
 
